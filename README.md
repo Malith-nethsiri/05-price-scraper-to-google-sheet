@@ -17,14 +17,14 @@ This Python project scrapes product prices from a target website and automatical
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo
-```bash
+
 git clone https://github.com/your-username/05-price-scraper-to-google-sheet.git
 cd 05-price-scraper-to-google-sheet
 
 ### 2. Install dependencies
     pip install -r requirements.txt
 
-3. Google Sheets API setup
+###3. Google Sheets API setup
 
       Create a Google Cloud Project      
       Enable Sheets API and Drive API      
@@ -34,9 +34,14 @@ cd 05-price-scraper-to-google-sheet
 📂 Folder Structure
 
 /05-price-scraper-to-google-sheet
+
 │
+
 ├── main.py                 # Main script
+
 ├── united-kiln-*.json      # Service account key
+
 ├── requirements.txt
+
 └── README.md
 
